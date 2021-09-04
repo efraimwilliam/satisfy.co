@@ -8,10 +8,7 @@
                 <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-list-item">
-                <a href="#" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-list-item">
-                <a href="#" class="nav-link">Blog</a>
+                <a href="#" class="nav-link">Our Product</a>
             </li>
             <li class="nav-list-item">
                 <a href="#" class="nav-link">Works</a>

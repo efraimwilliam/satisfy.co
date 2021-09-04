@@ -16,6 +16,13 @@
     padding: 0rem 5rem;
     position: relative;
   }
+  .landing1 {
+    margin-top:10px;
+    margin-bottom: -100px;
+    padding: 0rem 5rem;
+    position: relative;
+  }
+  
   nav {
     display: flex;
     align-items: center;
@@ -25,16 +32,20 @@
   .nav-links {
     display: flex;
     list-style: none;
+    
   }
   .nav-links li {
     padding-left: 5rem;
     font-size: 1.2rem;
+    color:rgb(37, 37, 37);
   }
   #logo {
     font-family: "Lobster", cursive;
     font-weight: lighter;
     font-size: 2rem;
+    color:rgb(37, 37, 37);
   }
+  
   
   .big-text {
     position: absolute;
@@ -43,7 +54,7 @@
     transform: translate(-50%, -30%);
     font-size: 5rem;
     font-family: "Lobster", cursive;
-    color:rgb(233, 233, 233);
+    color:rgb(37, 37, 37);
   }
   
   .intro {
@@ -70,7 +81,7 @@
   .intro-text {
     color: rgb(233, 233, 233);
     font-family: "Heebo", sans-serif;
-    font-size: 3rem;
+    font-size: 5rem;
   }
   
   .hide {

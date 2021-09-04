@@ -1,16 +1,24 @@
 @extends('layouts.head')
 
+<meta name="viewport" content="width=device-width">
+
 <body>
     <main>
       <section class="landing">
         <nav>
           <h1 id="logo">Satisfy.co</h1>
+          <div class="best">
           <ul class="nav-links">
-            <li>Home</li>
-            <li>Our Product</li>
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="/products">
+              <li>Our Product</li>
+            </a>
             <li>Work</li>
             <li>Contact Us</li>
           </ul>
+          </div>
         </nav>
         <h2 class="big-text">Satisfy.co</h2>
       </section>
@@ -38,7 +46,7 @@
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Our Producs</h3>
+    <h3 style = "color:black" class="w3-border-bottom w3-border-light-grey w3-padding-16 ">Our Producs</h3>
   </div>
 
   <div class="w3-row-padding">
@@ -82,6 +90,34 @@
       <button type="button" class="bit">See More</button>
     </div>
   </div>
+
+  <!-- Text Galery -->
+<div class="section section-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 style = "color:black" class="title">Who we are?</h2>
+            <h5 style = "color:black"class="description">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.</h5>
+          </div>
+        </div>
+</div>
+  
+
+  <!-- Text Galery -->
+  
+	<div class="container-fluid homeku-content1">
+		<div class="row">
+      
+			<div style= "color:black" class="col-md-6 content1-left">
+				<h1>Why Satisfy.co <span class="blinker">?</span></h1>
+				<p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
+				<!-- <div class="content1-left"></div> -->
+			</div>   
+			  <div style= "color:black" class="col-md-6 content1-right">
+          <img src="/img/1.jpeg" alt="House" style="width:85%">
+			</div>
+		</div>
+	</div>
 
 
 
@@ -325,7 +361,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 
   </body>
 </html>

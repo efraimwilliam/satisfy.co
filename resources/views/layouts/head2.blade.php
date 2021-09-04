@@ -1,8 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap" rel="stylesheet">
@@ -26,7 +21,6 @@
 <link href="{{ asset('css/landingpage.css') }}" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="{{ asset('css/class.css') }}" rel="stylesheet">
-<link href="{{ asset('css/footer.css') }}" rel="stylesheet">
 <link href="{{ asset('css/products.css') }}" rel="stylesheet">
 <link href="{{ asset('css/detailproducts.css') }}" rel="stylesheet">
 
